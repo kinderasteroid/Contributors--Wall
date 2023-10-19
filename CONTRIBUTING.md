@@ -6,7 +6,7 @@
 
 Follow these simple steps to add your name to the list:
 
-1. **Fork this Repository**: Click the "Fork" button in the top right corner of this repository to create a copy in your GitHub account.
+1. **Fork this Repository** (WITHOUT THIS IT WONT WORK): Click the "Fork" button in the top right corner of this repository to create a copy in your GitHub account.
 
 2. **Clone your Fork**: Clone the repository to your local machine. Replace `<your-username>` with your GitHub username:
 
@@ -18,10 +18,14 @@ Follow these simple steps to add your name to the list:
 
 ```
 cd Contributors--Wall
+
+```
 Edit the README: Open the README.md file in your text editor and add your name to the list in the following format:
 ```
-```
-- [Your Name](https://github.com/your-username)
+<a href="https://github.com/<your-username>">
+  <img src="https://contrib.rocks/image?repo=<your-username>/Contributors--Wall" />
+</a>
+
 
 ```
 Make sure to keep the formatting and replace Your Name with your name, and your-username with your GitHub username.
